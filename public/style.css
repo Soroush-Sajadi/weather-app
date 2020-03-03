@@ -1,0 +1,53 @@
+body {
+  height: 1023px;
+  background: linear-gradient(to bottom, #21baff 20%,blue 100%)  
+}
+.wrap {
+  text-align: center;
+  padding: 120px 20% 60px;
+}
+.input {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid;
+  padding: 1em 0 .8em;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 300;
+  line-height: 1.5;
+  color: inherit;
+  outline: none;
+}
+.button {
+  all: unset;
+  margin-top: 2.4em;
+  background: transparent;
+  border: 2px solid white;
+  padding: 1em 4em;
+  border-radius: 50px;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  position: relative;
+  transition: all 300ms ease;
+}
+.weather-info {
+  text-align: center;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
+p{
+  margin-top: -10px;
+}
+.not-found {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: white;
+}
