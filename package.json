@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "restart": "NODE_ENV=development nodemon routes.js",
+    "restart": "nodemon routes.js",
     "lint": "eslint *.js **/*.js",
     "pretest": "npm run lint",
     "test": "jest --config jest.config.json --silent",
