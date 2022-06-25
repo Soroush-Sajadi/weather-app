@@ -38,7 +38,7 @@
     "fetch": "^1.1.0",
     "joi": "^13.4.0",
     "navigator": "^1.0.1",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.7",
     "unirest": "^0.6.0",
     "uuid": "^3.2.1"
   }
